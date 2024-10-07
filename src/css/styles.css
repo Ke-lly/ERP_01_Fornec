@@ -12,15 +12,9 @@
     --icon-size-large: 32px;
 }
 
-/* Cor de fundo específica para a seção do formulário */
-.form-section {
-    background-color: #c19ff8; /* Cor de fundo que você deseja */
-    padding: 20px; /* Espaçamento interno para dar mais espaçamento ao conteúdo */
-    border-radius: 10px; /* Opcional: arredondar os cantos */
-    margin: 20px auto; /* Centralizar e adicionar espaçamento externo */
-    max-width: 600px; /* Definir uma largura máxima para a seção */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional para destacar a seção */
-}
+p {
+    background-color: blue;
+  }
 
 
 body {
@@ -43,9 +37,9 @@ body {
     padding: 15px;
     margin: 0;
     margin-left: -15px;
-    width: 100%; /* Largura relativa */
-    max-width: 100%; /* Garantir que a logo não exceda a largura do contêiner */
-    background-color: var(--deep-purple); /* Corrigi a cor: deep-purple */
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--deep-purple);
 }
 
 .sidebar .nav-link {
